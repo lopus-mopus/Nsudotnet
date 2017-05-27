@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eliseev.Nsudotnet.LinesCounter", "Eliseev.Nsudotnet.LinesCounter\Eliseev.Nsudotnet.LinesCounter.shproj", "{33157CAC-57E3-4C7D-9112-C070979AD64A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Eliseev.Nsudotnet.LinesCounter\Eliseev.Nsudotnet.LinesCounter.projitems*{33157cac-57e3-4c7d-9112-c070979ad64a}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

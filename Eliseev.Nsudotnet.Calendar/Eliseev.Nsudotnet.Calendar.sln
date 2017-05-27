@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eliseev.Nsudotnet.Calendar", "Eliseev.Nsudotnet.Calendar\Eliseev.Nsudotnet.Calendar.shproj", "{BAC3FB2E-18D3-46F0-9887-F820551E7844}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Eliseev.Nsudotnet.Calendar\Eliseev.Nsudotnet.Calendar.projitems*{bac3fb2e-18d3-46f0-9887-f820551e7844}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

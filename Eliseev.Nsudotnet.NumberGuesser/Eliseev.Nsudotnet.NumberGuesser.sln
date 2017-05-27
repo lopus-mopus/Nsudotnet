@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eliseev.Nsudotnet.NumberGuesser", "Eliseev.Nsudotnet.NumberGuesser\Eliseev.Nsudotnet.NumberGuesser.shproj", "{81B8E008-BF6A-4E40-8FE2-B0FA70B74E59}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Eliseev.Nsudotnet.NumberGuesser\Eliseev.Nsudotnet.NumberGuesser.projitems*{81b8e008-bf6a-4e40-8fe2-b0fa70b74e59}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
