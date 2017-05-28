@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
 
 namespace Eliseev.Nsudotnet.LinesCounter
 {
@@ -20,7 +19,7 @@ namespace Eliseev.Nsudotnet.LinesCounter
             {
                 FetchParameters(args, out fileFormat, out directory);
                 Console.WriteLine($"Searching files {fileFormat} in {directory} directory:");
-                int lines = LinesCounter.CountLinesInFilesInDirectoryAndSubDirectoryes(directory, fileFormat);
+                int lines = LinesCounter.CountLinesInDirectoryAndSubDirectoryes(directory, fileFormat);
                 Console.WriteLine($"Total {lines} lines.");
             }
             catch (Exception e)
