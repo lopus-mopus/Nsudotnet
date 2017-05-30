@@ -94,15 +94,14 @@ namespace Eliseev.Nsudotnet.NumberGuesser
             while (!correctInput)
             {
                 WriteInputMessage();
-                try
-                {
-                    result = int.Parse(Console.ReadLine());
-                    correctInput = true;
-                }
-                catch (Exception e)
-                {
+                
+                    if (int.TryParse(Console.ReadLine(), out result))
+                    {
+                        correctInput = true;
+                    }
+                    else
                     WriteInputError();
-                }
+
             }
             return result;
         }
