@@ -48,7 +48,7 @@ namespace Eliseev.Nsudotnet.NumberGuesser
 
         public static void WriteSwearing(String userName, Random random)
         {
-            Console.WriteLine(OATH[random.Next(0, OATH.Length)].Replace("%NAME", userName));
+            Console.WriteLine( userName+ String.Format(OATH[random.Next(0, OATH.Length)], "%NAME"));
         }
 
         public static bool ReadYesNo()
